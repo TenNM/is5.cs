@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace is5.cs.Models
+﻿namespace is5.cs.Models
 {
     public class Book
     {
