@@ -23,6 +23,12 @@ textarea {
     max-width: 280px;
 }
 
-mainTable{
-    color: red;
+.mainTable {
+    vertical-align: middle;
+    text-align: left;
+    color: black;
+}
+
+td {
+    padding-right: 10px;
 }
