@@ -2,17 +2,18 @@
     ViewBag.Title = "Home Page";
 }
 
-{
-Layout = null;
+@{
+//Layout = null;
+Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<!DOCTYPE html>
+@*<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Книжный магазин</title>
 </head>
-<body>
-    <div>
+<body>*@
+    <div class="mainTable">
         <h3>Распродажа книг</h3>
         <table>
             <tr>
@@ -32,5 +33,5 @@ Layout = null;
             }
         </table>
     </div>
-</body>
-</html>
+@*</body>
+</html>*@
